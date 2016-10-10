@@ -1,0 +1,6 @@
+{
+	"test": "ciao",
+	"waypoints": [
+		{ "latitude": 12.0, "logitude": 12.0 }
+	]
+}
