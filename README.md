@@ -20,6 +20,7 @@ The makefile will produce two binary:
 - autonomousboat-sim: the software that simulates the autonomousboat with tracksail
 
 
-## Usage
+## Usage on raspberry
+
 
 ## Usage with tracksail

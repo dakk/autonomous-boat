@@ -7,5 +7,6 @@ typedef struct {
 } config_t;
 
 int config_load (char *, config_t *);
+void config_default (config_t *);
 
 #endif

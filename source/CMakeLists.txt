@@ -1,1 +1,1 @@
-add_library(main config.c route.c location.c)
+add_library(main config.c route.c location.c logger.c)
