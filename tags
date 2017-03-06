@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+Boat	oldpy/Boat.py	/^class Boat:$/;"	kind:class	line:4
+Boat.py	oldpy/Boat.py	1;"	kind:file	line:1
+Compass.py	oldpy/Compass.py	1;"	kind:file	line:1
+GPS	oldpy/GPS.py	/^class GPS:$/;"	kind:class	line:9
+GPS.py	oldpy/GPS.py	1;"	kind:file	line:1
+Position	oldpy/GPS.py	/^class Position:$/;"	kind:class	line:1
+RouteManager	oldpy/RouteManager.py	/^class RouteManager:$/;"	kind:class	line:3
+RouteManager.py	oldpy/RouteManager.py	1;"	kind:file	line:1
+Rudder.py	oldpy/Rudder.py	1;"	kind:file	line:1
+Winch.py	oldpy/Winch.py	1;"	kind:file	line:1
+Wind.py	oldpy/Wind.py	1;"	kind:file	line:1
+__init__	oldpy/Boat.py	/^	def __init__ (self, conf):$/;"	kind:member	line:5
+__init__	oldpy/GPS.py	/^	def __init__ (self):$/;"	kind:member	line:10
+__init__	oldpy/GPS.py	/^	def __init__ (self, lat, lon, speed = 0, sats = 0):$/;"	kind:member	line:2
+__init__	oldpy/RouteManager.py	/^	def __init__ (self, waypoints):$/;"	kind:member	line:4
+b	oldpy/main.py	/^	b = Boat (conf)$/;"	kind:variable	line:8
+conf	oldpy/main.py	/^	conf = json.loads (fc)$/;"	kind:variable	line:6
+fc	oldpy/main.py	/^	fc = open ('boatconfig.json', 'r').read ()$/;"	kind:variable	line:5
+getCruiseBestAngle	oldpy/Boat.py	/^	def getCruiseBestAngle (self, cangle, nextangle):$/;"	kind:member	line:29
+getNextWaypoint	oldpy/RouteManager.py	/^	def getNextWaypoint (self, pos):$/;"	kind:member	line:7
+getPosition	oldpy/GPS.py	/^	def getPosition (self):$/;"	kind:member	line:16
+main.py	oldpy/main.py	1;"	kind:file	line:1
+mainLoop	oldpy/Boat.py	/^	def mainLoop (self):$/;"	kind:member	line:38
+start	oldpy/GPS.py	/^	def start (self):$/;"	kind:member	line:13
+startup	oldpy/Boat.py	/^	def startup (self):$/;"	kind:member	line:13
+turnTo	oldpy/Boat.py	/^	def turnTo (self, angle):$/;"	kind:member	line:18

@@ -1,3 +1,0 @@
-Ogni dispositivo di input (wind, gps, compass) generano uno stream di informazioni ed avra' quindi un singolo thread 
-separato. In qualsiasi momento le chiamate agli input non saranno bloccanti ma restituiranno l'ultimo valore disponibile. 
-I dispositivi dovranno essere in grado di riconoscere un timeout e riinizializzarsi autonomamente.

@@ -1,14 +1,10 @@
 #ifndef __ROUTE_H
 #define __ROUTE_H
 
-typedef struct {
-	double latitude;
-	double longitude;
-} checkpoint_t;
-
+#include "location.h"
 
 typedef struct {
-	checkpoint_t *checkpoints;
+	location_t *checkpoints;
 	int checkpoints_number;
 } route_t;
 
