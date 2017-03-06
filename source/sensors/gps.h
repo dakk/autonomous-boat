@@ -1,5 +1,5 @@
-#ifndef __GPS_H
-#define __GPS_H
+#ifndef __SENSORS_GPS_H
+#define __SENSORS_GPS_H
 
 #include "../location.h"
 

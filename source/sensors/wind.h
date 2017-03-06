@@ -1,11 +1,7 @@
-#ifndef __WIND_H
-#define __WIND_H
+#ifndef __SENSORS_WIND_H
+#define __SENSORS_WIND_H
 
-typedef struct {
-    double direction;
-    double speed;
-} wind_t;
-
+#include "../wind.h"
 
 int wind_get (wind_t *);
 

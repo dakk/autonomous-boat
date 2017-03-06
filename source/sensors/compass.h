@@ -1,5 +1,5 @@
-#ifndef __COMPASS_H
-#define __COMPASS_H
+#ifndef __SENSORS_COMPASS_H
+#define __SENSORS_COMPASS_H
 
 
 int compass_get (double *);
